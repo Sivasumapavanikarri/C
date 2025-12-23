@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int T;
+    scanf("%d", &T);
+
+    while (T--) {
+        int X, Y;
+        scanf("%d %d", &X, &Y);
+
+        int totalHours = 4 * X + Y;
+        printf("%d\n", totalHours);
+    }
+    return 0;
+}
